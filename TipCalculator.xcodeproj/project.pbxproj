@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -49,6 +49,10 @@
 		8DB4B0C527064CEE00F4AFBE /* TipCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		547F24CF2D5B6261002FD935 /* Page Objects */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Page Objects"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		8D2A40F32710A0780014D5B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -77,6 +81,7 @@
 		8D2A40F72710A0780014D5B8 /* TipCalculatorUITests */ = {
 			isa = PBXGroup;
 			children = (
+				547F24CF2D5B6261002FD935 /* Page Objects */,
 				8D2A40F82710A0780014D5B8 /* TipCalculatorUITests.swift */,
 				8D2A40FA2710A0780014D5B8 /* TipCalculatorUITestsLaunchTests.swift */,
 			);
@@ -154,6 +159,9 @@
 			);
 			dependencies = (
 				8D2A40FD2710A0780014D5B8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				547F24CF2D5B6261002FD935 /* Page Objects */,
 			);
 			name = TipCalculatorUITests;
 			productName = TipCalculatorUITests;
